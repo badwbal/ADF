@@ -1,0 +1,60 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "geekcodersadfdev100"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://geekcodersdatalakesou100.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_tenant": {
+			"value": "77ee4f95-3db7-433d-9ce6-46c9fec43668"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_servicePrincipalId": {
+			"value": "660f4871-1b36-4a88-a0cb-4c19517d79a4"
+		},
+		"AzureDataLakeStorage_sink_properties_typeProperties_url": {
+			"value": "https://storageaccountsource100.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage_sink_properties_typeProperties_tenant": {
+			"value": "77ee4f95-3db7-433d-9ce6-46c9fec43668"
+		},
+		"AzureDataLakeStorage_sink_properties_typeProperties_servicePrincipalId": {
+			"value": "660f4871-1b36-4a88-a0cb-4c19517d79a4"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://geekcoderskeyvaultdev.vault.azure.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "geekcodersdev1.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "geekcodersdev"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "geekcoders_admin"
+		},
+		"AzureSqlDatabase_Source_properties_typeProperties_server": {
+			"value": "geekcodersdev1.database.windows.net"
+		},
+		"AzureSqlDatabase_Source_properties_typeProperties_database": {
+			"value": "geekcodersdev"
+		},
+		"AzureSqlDatabase_Source_properties_typeProperties_userName": {
+			"value": "geekcoders_admin"
+		},
+		"RestService1_properties_typeProperties_url": {
+			"value": "https://airlabs.co/api/v9/airlines"
+		},
+		"RestService_source_properties_typeProperties_url": {
+			"value": "https://airlabs.co/api/v9/airlines"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
